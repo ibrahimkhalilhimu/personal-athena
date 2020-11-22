@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import HeaderMain from './components/HeaderMain/HeaderMain';
+import WeDo from './components/WeDo/WeDo';
+import Project from './components/Project/Project';
+import Achievement from './components/Achievement/Achievement';
+import GetStartedCTA from './components/GetStartedCTA/GetStartedCTA';
+import Footer from './components/Footer/Footer';
+import DedicatedTeam from './components/DedicatedTeam/DedicatedTeam';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <HeaderMain/>
+     <WeDo/>
+     <Project/>
+     <Achievement/>
+     <DedicatedTeam/>
+    <GetStartedCTA/>
+    <Footer/>
     </div>
   );
 }

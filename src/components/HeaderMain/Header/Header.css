@@ -1,0 +1,20 @@
+.headerPart h2{
+font-family: 'Yeseva One', cursive;
+font-size: 70px;
+}
+.headerPart p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    }
+    .headerPart img{
+        padding-left: 100px;
+       
+    }
+   
+    @media screen and (max-width: 800px) {
+        .headerPart img {
+          width: 100%; 
+         padding-top: 30px;
+         padding-left: 10px;
+        }
+      }
